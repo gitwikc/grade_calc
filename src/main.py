@@ -6,7 +6,6 @@ def show_calc(current: float, sems_passed: int, total_sems: int = 10) -> None:
     cols = st.columns(2, gap="medium")
 
     completed = sems_passed / total_sems
-    cpi = current * completed
 
     with cols[0]:
         st.subheader("Estimated SPI in Remaining Semesters")
