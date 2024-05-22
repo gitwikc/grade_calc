@@ -39,7 +39,7 @@ def main():
         label="Semesters Completed", min_value=1, max_value=9, step=1, value=5
     )
     total_sems = st.slider(
-        label="Semesters Completed",
+        label="Total Semesters",
         min_value=sems_passed + 1,
         max_value=10,
         step=1,
